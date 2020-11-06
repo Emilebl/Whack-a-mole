@@ -38,7 +38,8 @@ function countDown() {
 
     if (currentTime === 0) {
         clearInterval(timerId)
-        timeLeft.textContent = currentTime
+        timeLeft.textContent = 60
+        result = 0
         alert('GAME OVER ! Your final score is ' + result)
     }
 }
